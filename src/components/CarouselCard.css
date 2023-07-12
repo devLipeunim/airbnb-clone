@@ -8,8 +8,8 @@
 .swiper-button-prev {
   position: absolute;
   top: 50%;
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
   margin-top: -16px;
   background-color: #fff;
   color: #333;
@@ -19,7 +19,7 @@
 
 .swiper-button-next:after,
 .swiper-button-prev:after {
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 900;
 }
 

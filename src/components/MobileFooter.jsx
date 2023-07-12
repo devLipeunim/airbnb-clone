@@ -36,7 +36,7 @@ const MobileFooter = () => {
           <Link href="#">&copy; {new Date().getFullYear()} Airbnb, inc.</Link>
         </Paper>
       </Stack>
-      <Stack sx={{ mt: 2 }}>
+      <Stack sx={{ mt: 2, display: "flex", flexWrap: "wrap" }} >
         {footerLinks.map((link) => {
           return (
             <Paper key={link.id}>
